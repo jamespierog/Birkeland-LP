@@ -1,8 +1,7 @@
 import {useState} from "react";
-
+import Image from "next/image";
 import {close, logo, menu} from "../assets";
 import {navLinks} from "../constants";
-import Image from "next/image";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -10,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h2 className="font-poppins font-semibold xs:text-[35px] text-[30px] text-gradient xs:leading-[76.8px] leading-[66.8px] w-full">
+      <h2 className="font-poppins font-semibold xs:text-[35px] text-[30px] text-gradient xs:leading-[76.8px] leading-[66.8px]">
         Birkeland
       </h2>
 
