@@ -10,10 +10,10 @@ const Feature1 = () => (
     className={`${layout.section} lg:mt-0 xs:mt-[250px] relative`}
   >
     <div className={layout.sectionInfo}>
-      <h1 className="text-[500px]  text-white font-extrabold opacity-[0.1] ">
+      <h1 className="text-[500px] text-white font-extrabold opacity-[0.1] ">
         1
       </h1>
-      <div className="absolute top-[270px]">
+      <div className="absolute xs:top-[270px] lg:top-[270px]">
         <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
           <span className="text-gradient text-[35px]">Feature 1 </span> <br />{" "}
           Tor No More Privately coordinate and securely communicate with peers

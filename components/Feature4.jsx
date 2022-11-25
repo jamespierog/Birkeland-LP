@@ -8,7 +8,7 @@ function Feature4() {
     <section
       className={`${layout.sectionReverse} xs:flex-col-reverse lg:flex-row flex lg:mt-[-200px] xs:mt-[-120px] relative`}
     >
-      <div className={`${layout.sectionImgReverse} xs:mt-[-80px] lg:mt-0`}>
+      <div className={`${layout.sectionImgReverse} xs:mt-[80px] lg:mt-0`}>
         <Image src={feature6} />
       </div>
       <div className={layout.sectionInfo}>
