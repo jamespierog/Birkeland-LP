@@ -22,9 +22,7 @@ const Hero = () => {
           Your Keys, Your coins, Your Node Private, Automated, Optimised for
           Reliability or Yield
         </p>
-        <div>
-          <Button style="mt-10" />
-        </div>
+        <Button style="mt-10" />
       </div>
 
       <div
