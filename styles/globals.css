@@ -1,26 +1,201 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-a {
-  color: inherit;
-  text-decoration: none;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #1c1042 91.61%);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
 * {
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.text-gradient {
+  background: radial-gradient(83.18% 64.18% at 71.16% 35.69%,
+      #0b698d,
+      #464494,
+      #b55ebe,
+      #cb8393,
+      #7b2155);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%);
+}
+
+.bg-black-gradient {
+  background: linear-gradient(144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%);
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(-168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%);
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(153.47deg,
+      rgba(255, 255, 255, 0) -341.94%,
+      #14101d 95.11%);
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
   }
-  body {
-    color: white;
-    background: black;
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+
+
+
+
+
+
+
+  .fadeOut{
+   background: linear-gradient(transparent 0%,#00040f 100%);
+   z-index: 100;
+  }
+  .glass{
+      backdrop-filter: blur(0px) saturate(200%);
+        -webkit-backdrop-filter: blur(0px) saturate(200%);
+        background-color: rgba(255, 255, 255, 0.55);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+
+.animate {
+  background: linear-gradient(270deg, #0b698d, #464494, #b55ebe, #cb8393, #7b2155, #1c1042);
+  background-size: 1200% 1200%;
+
+
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
   }
 }
