@@ -1,7 +1,7 @@
 import styles from "../styles/style";
 import {discount, heroIllustration} from "../assets";
-import GetStarted from "./GetStarted";
 import Image from "next/image";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
           Reliability or Yield
         </p>
         <div>
-          <GetStarted />
+          <Button style="mt-10" />
         </div>
       </div>
 
