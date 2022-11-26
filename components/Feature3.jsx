@@ -7,13 +7,13 @@ const Feature3 = () => (
     className={`${layout.section} lg:mt-[-200px] xs:mt-[-120px] relative`}
   >
     <div className={layout.sectionInfo}>
-      <h1 className="text-[500px]  text-white font-extrabold opacity-[0.1] ">
+      <h1 className="text-[500px]  text-white font-extrabold opacity-[0.05] ">
         3
       </h1>
       <div className="absolute top-[270px]">
         <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
-          <span className="text-gradient text-[35px]">Feature 3 </span> <br />{" "}
-          Analytics on Your Node Over Time Gain insight over your node’s past
+          <span className="text-gradient text-[35px]">Analytics on Your Node Over Time</span> <br />{" "}
+          Gain insight over your node’s past
           performance and history enabling you to make better decisions in the
           future.
         </p>

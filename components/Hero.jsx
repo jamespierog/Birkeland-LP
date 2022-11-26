@@ -19,8 +19,9 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Your Keys, Your coins, Your Node Private, Automated, Optimised for
-          Reliability or Yield
+          Your Keys, Your coins, Your Node
+          <br/>
+          Private, Automated, Optimised for Reliability or Yield
         </p>
         <Button style="mt-10" />
       </div>
