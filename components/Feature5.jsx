@@ -11,7 +11,7 @@ const Feature5 = () => (
         5
       </h1>
       <div className="absolute top-[270px]">
-        <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
+        <p className={`${styles.paragraph} font-normal text-dim White text-[22px] leading-[30.8px] max-w-[600px] mt-5`}>
           <span className="text-gradient text-[35px]">Automate Your Liquidity Management </span> <br />{" "}
           Automatically open channels with
           ease, and never worry about manually balancing channels again.

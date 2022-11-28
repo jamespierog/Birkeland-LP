@@ -12,7 +12,7 @@ const Feature2 = () => (
         2
       </h1>
       <div className="absolute top-[270px]">
-        <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
+        <p className={`${styles.paragraph} font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5`}>
           <span className="text-gradient text-[35px]">Node First Aid</span> <br />{" "}
           Monitor your node’s uptime and reliability with our
           automated health-check services. Receive alerts when your node is not

@@ -11,7 +11,7 @@ const Feature3 = () => (
         3
       </h1>
       <div className="absolute top-[270px]">
-        <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
+        <p className={`${styles.paragraph} font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5`}>
           <span className="text-gradient text-[35px]">Analytics on Your Node Over Time</span> <br />{" "}
           Gain insight over your node’s past
           performance and history enabling you to make better decisions in the

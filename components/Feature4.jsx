@@ -16,7 +16,7 @@ function Feature4() {
           4
         </h1>
         <div className="absolute top-[270px]">
-          <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
+          <p className={`${styles.paragraph} font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5`}>
             <span className="text-gradient text-[35px]">Connect with the Best </span> <br />{" "}
             Find the most well-connected nodes based on
             eigenvector centrality metrics. Birkeland collects and analyzes

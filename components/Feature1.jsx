@@ -14,12 +14,9 @@ const Feature1 = () => (
         1
       </h1>
       <div className="absolute xs:top-[270px] lg:top-[270px]">
-        <p className="font-poppins font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5">
+        <p className={`${styles.paragraph} font-normal text-dimWhite text-[22px] leading-[30.8px] max-w-[600px] mt-5`}>
           <span className="text-gradient text-[35px]">Tor No More </span> <br />{" "}
-          Privately coordinate and securely communicate with peers
-          using a lightning-tailored VPN to handle networking and
-          communications. Run your lightning node over the clearnet without
-          worrying about Tor issues ever again.
+          Privately coordinate and securely communicate with peers using a lightning-tailored VPN to handle networking and communications. Run your lightning node over the clearnet without worrying about Tor issues ever again.
         </p>
       </div>
     </div>

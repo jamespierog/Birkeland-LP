@@ -13,15 +13,15 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[42px] text-white ss:leading-[80.8px] leading-[85px]">
-            Automated Lightning Node Maintaince at the <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Click of a Button </span>{" "}
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[48px] text-[42px] text-white ss:leading-[80.8px] leading-[75px]">
+            Automating Lightning Node Management with {" "}
+            <span className="text-gradient">the Click of a Button </span>{" "}
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Your Keys, Your coins, Your Node
           <br/>
-          Private, Automated, Optimised for Reliability or Yield
+          Private, Automated, Optimised for Yield
         </p>
         <Button style="mt-10" />
       </div>
@@ -32,7 +32,7 @@ const Hero = () => {
         <Image
           src={heroIllustration}
           alt="billing"
-          className="w-[80%] h-[80%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5]"
         />
       </div>
     </section>
