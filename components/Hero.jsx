@@ -13,8 +13,8 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[65px] text-[52px] text-white ss:leading-[90.8px] leading-[75px]">
-            Lightning Node Maintaince at the <br className="sm:block hidden" />{" "}
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[42px] text-white ss:leading-[80.8px] leading-[85px]">
+            Automated Lightning Node Maintaince at the <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Click of a Button </span>{" "}
           </h1>
         </div>
@@ -32,7 +32,7 @@ const Hero = () => {
         <Image
           src={heroIllustration}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[80%] h-[80%] relative z-[5]"
         />
       </div>
     </section>

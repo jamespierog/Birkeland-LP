@@ -12,8 +12,8 @@ const Footer = () => (
           Birkeland
         </h2>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          modi sint, repellendus in quaerat sit,
+          Your Keys, Your coins, Your Node
+          Private, Automated, Optimised for Reliability or Yield
         </p>
       </div>
 
